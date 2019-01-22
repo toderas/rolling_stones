@@ -1,0 +1,101 @@
+html, body {
+    background-color: #add8e6;
+}
+
+
+/*-----Header-----*/
+
+.menuitem {
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    
+  
+}
+
+.menuitem a {
+    width: 100% ;
+    text-decoration: none;
+    color:#add8e6;
+    height: 54px;
+   
+}
+
+.menuitem a i {
+    padding-top: 4px;
+    display: block;
+    color:#fafafa;
+    font-size: 19px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+/*-------Section---------*/
+.article-title{
+    text-align:center;
+    font-family:comic-sans;
+    font-size: 19px;
+    color:black;
+    padding:5px;
+}
+/*-------Main---------*/
+.various {
+    margin-bottom:25px;
+}
+.responsive {
+    text-align:center;
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+/*------ footer ------*/
+.social-links {
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 19px;
+    line-height: 7px;
+    text-align:center;
+    color:#e84610;
+    background:#fafafa;
+    transition: all 0.05s ease-in-out;
+    -moz-transition: all 0.05s ease-in-out;
+    -webkit-transition: all 0.05s ease-in-out;
+    -o-transition: all 0.05s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #006400;
+    
+}
+.terms {
+    text-align: center;
+}
+.terms i {
+    text-align: center;
+     height: 30px;
+    padding: 12px 0;
+    display: block;
+    color:#b5651d;
+    font-size: 15px;
+     width: 100% ;
+    text-decoration: none;
+}
+.copyright {
+    background-color: #fafafa;
+    text-align: center;
+}
