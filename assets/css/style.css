@@ -1,7 +1,9 @@
 html, body {
     background-color: #add8e6;
 }
-
+.bg-color-calendar{
+    background-color:#A9A9A9;
+}
 
 /*-----Header-----*/
 
@@ -46,7 +48,7 @@ html, body {
     color:black;
     padding:5px;
 }
-/*-------Main---------*/
+/*-------Index---------*/
 .various {
     margin-bottom:25px;
 }
@@ -56,6 +58,155 @@ html, body {
     width: 100%;
     height: auto;
 }
+
+/*------Updates------*/
+.release-updates p {
+    margin-bottom: 15px;
+    color: #fafafa;
+    font-size: 12px;
+    font-family: serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+audio {
+    width: 100%;
+}
+
+/*-----The band------*/
+.band img {
+    position: relative;
+    float: none;
+    width: 225px;
+    height: 225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    margin-bottom: 20px;
+}
+.band p {
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #fafafa;
+    text-align: center;
+}
+
+/*------Contact------*/
+.bg-color-contact {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuGpLp-_ro5algr6L9pGY5JKasa6prNZr74dVg4Z9-Ee69vkHL);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact-heading {
+    font-family: fantasy , sans-serif;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color:#fafafa;
+    color:#cd0000;
+    letter-spacing:1.7px;
+}
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color:red;
+    color: #fafafa;
+}
+/*------Shop-------*/
+.shop-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.shop-item img {
+    position: relative;
+    float: none;
+    width:  150px;
+    height: 150px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.shop-container p {
+    color:#fafafa;
+    font-family: fantasy;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    text-align: left;
+    
+}
+/*------Calendar-----*/
+
+.row {
+    text-align: center;
+    margin: 20px;
+    background: inherit;
+}
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+    
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+    color:#fafafa;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: sans-serif;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+   width: 15px;
+    height: 5px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius:16px;
+    content: '';
+    background: #fafafa;
+}
+
+.events-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-items {
+    margin-bottom: 30px;
+}
+.tickets {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color:red;
+ }
+
 
 /*------ footer ------*/
 .social-links {
